@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "title": "The Complete JavaScript Course 2024: From Zero to Expert!",
+      "title": "The Complete JavaScript Course 2024",
       "slug": "complete-javascript",
       "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
       "price": 599,
@@ -32,73 +32,93 @@
     },
     {
       "id": 4,
-      "title": "Drumming Mastery",
-      "slug": "drumming-mastery",
-      "description": "Master the drums with our comprehensive course covering all skill levels.",
-      "price": 129.99,
-      "instructor": "Mike Brown",
+      "title": "Advanced React & Redux",
+      "slug": "advanced-react-redux",
+      "description": "Dive deep into advanced React patterns and master state management using Redux. Build scalable, production-ready apps.",
+      "price": 399,
+      "instructor": "Stephen Grider",
       "isFeatured": false,
-      "image": "/courses/drumming.jpg"
+      "image": "/courses/advanced-react-redux.jpg"
     },
     {
       "id": 5,
-      "title": "Jazz Improvisation",
-      "slug": "jazz-improvisation",
-      "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-      "price": 139.99,
-      "instructor": "Chris Davis",
-      "isFeatured": false,
-      "image": "/courses/jazz.jpg"
+      "title": "Data Structures & Algorithms Bootcamp",
+      "slug": "data-structures-algorithms",
+      "description": "Ace coding interviews with in-depth understanding of data structures, algorithms, and problem-solving techniques.",
+      "price": 549,
+      "instructor": "Colt Steele",
+      "isFeatured": true,
+      "image": "/courses/data-structures-algorithms.jpg"
     },
     {
       "id": 6,
-      "title": "Music Production Fundamentals",
-      "slug": "music-production-fundamentals",
-      "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-      "price": 149.99,
-      "instructor": "Alex Wilson",
-      "isFeatured": true,
-      "image": "/courses/music-prod.jpg"
+      "title": "Complete Node.js Developer Bootcamp",
+      "slug": "complete-nodejs-developer",
+      "description": "Master backend development with Node.js. Learn to build scalable APIs, manage databases, and create full-stack applications.",
+      "price": 479,
+      "instructor": "Andrew Mead",
+      "isFeatured": false,
+      "image": "/courses/complete-nodejs.jpg"
     },
     {
       "id": 7,
-      "title": "Songwriting Essentials",
-      "slug": "songwriting-essentials",
-      "description": "Learn the essentials of songwriting to express your musical creativity.",
-      "price": 159.99,
-      "instructor": "Samantha Miller",
-      "isFeatured": false,
-      "image": "/courses/song-writing.jpg"
+      "title": "UI/UX Design Masterclass",
+      "slug": "ui-ux-design-masterclass",
+      "description": "Become a professional UI/UX designer. Learn how to create stunning and intuitive user interfaces and experiences.",
+      "price": 359,
+      "instructor": "Sarah Doody",
+      "isFeatured": true,
+      "image": "/courses/ui-ux-design.jpg"
     },
     {
       "id": 8,
-      "title": "Electronic Music Production",
-      "slug": "electronic-music-production",
-      "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-      "price": 169.99,
-      "instructor": "Luke Harris",
+      "title": "Machine Learning & AI for Beginners",
+      "slug": "machine-learning-ai",
+      "description": "An introductory course to machine learning and AI. Learn the foundational concepts and implement projects using Python.",
+      "price": 599,
+      "instructor": "Kirill Eremenko",
       "isFeatured": true,
-      "image": "/courses/music-prod.jpg"
+      "image": "/courses/machine-learning-ai.jpg"
     },
     {
       "id": 9,
-      "title": "Classical Music History",
-      "slug": "classical-music-history",
-      "description": "Explore the rich history of classical music from its origins to the present day.",
-      "price": 179.99,
-      "instructor": "Grace Lee",
+      "title": "Fullstack Go Developer Bootcamp",
+      "slug": "fullstack-go-developer",
+      "description": "Master backend and frontend development with Go. Build high-performance apps and deploy them with ease.",
+      "price": 499,
+      "instructor": "Elliot Forbes",
       "isFeatured": false,
-      "image": "/courses/classical-music.jpg"
+      "image": "/courses/fullstack-go-developer.jpg"
     },
     {
       "id": 10,
-      "title": "Blues Guitar Techniques",
-      "slug": "blues-guitar-techniques",
-      "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-      "price": 189.99,
-      "instructor": "Ethan Moore",
+      "title": "Kubernetes for Developers",
+      "slug": "kubernetes-for-developers",
+      "description": "Learn how to develop, deploy, and manage containerized applications with Kubernetes and Docker.",
+      "price": 429,
+      "instructor": "Kelsey Hightower",
       "isFeatured": true,
-      "image": "/courses/blues.jpg"
+      "image": "/courses/kubernetes-for-developers.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Mastering Git & GitHub",
+      "slug": "mastering-git-github",
+      "description": "Learn version control with Git and GitHub. Collaborate efficiently, manage code changes, and automate workflows.",
+      "price": 199,
+      "instructor": "Scott Tolinski",
+      "isFeatured": false,
+      "image": "/courses/mastering-git-github.jpg"
+    },
+    {
+      "id": 12,
+      "title": "DevOps Mastery with AWS",
+      "slug": "devops-mastery-aws",
+      "description": "Master DevOps with AWS. Learn CI/CD, Infrastructure as Code, monitoring, and deploying scalable applications.",
+      "price": 549,
+      "instructor": "DevOps Academy",
+      "isFeatured": true,
+      "image": "/courses/devops-mastery-aws.jpg"
     }
   ]
 }
