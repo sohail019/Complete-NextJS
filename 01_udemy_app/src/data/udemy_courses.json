@@ -2,33 +2,33 @@
   "courses": [
     {
       "id": 1,
-      "title": "Guitar Fundamentals",
-      "slug": "guitar-fundamentals",
-      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-      "price": 99.99,
-      "instructor": "John Doe",
+      "title": "The Complete Python Pro Bootcamp",
+      "slug": "the-complete-python-pro-bootcamp",
+      "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+      "price": 499,
+      "instructor": "Dr. Angela Yu",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/python-bootcamp.jpg"
     },
     {
       "id": 2,
-      "title": "Piano for Beginners",
-      "slug": "piano-for-beginners",
-      "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-      "price": 109.99,
-      "instructor": "Jane Smith",
-      "isFeatured": false,
-      "image": "/courses/piano.jpg"
+      "title": "Complete Web Development Course",
+      "slug": "complete-web-development",
+      "description": "Only web development course that you will need. Covers HTML, CSS, Tailwind, Node, React, MongoDB, Prisma, Deployment etc",
+      "price": 449,
+      "instructor": "Hitesh Choudhary",
+      "isFeatured": true,
+      "image": "/courses/complete-web-development.jpg"
     },
     {
       "id": 3,
-      "title": "Advanced Vocal Techniques",
-      "slug": "advanced-vocal-techniques",
-      "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-      "price": 119.99,
-      "instructor": "Emily Johnson",
+      "title": "The Complete JavaScript Course 2024: From Zero to Expert!",
+      "slug": "complete-javascript",
+      "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+      "price": 599,
+      "instructor": "Jonas Schmedtmann",
       "isFeatured": true,
-      "image": "/courses/vocalist.jpg"
+      "image": "/courses/complete-javascript.jpg"
     },
     {
       "id": 4,
