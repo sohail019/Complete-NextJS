@@ -47,7 +47,7 @@
       "description": "Ace coding interviews with in-depth understanding of data structures, algorithms, and problem-solving techniques.",
       "price": 549,
       "instructor": "Colt Steele",
-      "isFeatured": true,
+      "isFeatured": false,
       "image": "/courses/data-structures-algorithms.jpg"
     },
     {
@@ -67,7 +67,7 @@
       "description": "Become a professional UI/UX designer. Learn how to create stunning and intuitive user interfaces and experiences.",
       "price": 359,
       "instructor": "Sarah Doody",
-      "isFeatured": true,
+      "isFeatured": false,
       "image": "/courses/ui-ux-design.jpg"
     },
     {

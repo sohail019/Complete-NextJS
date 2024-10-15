@@ -35,7 +35,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [addVariablesForColors, require("tailwind-scrollbar-hide")],
 };
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
