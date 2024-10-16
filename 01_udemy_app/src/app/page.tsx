@@ -1,6 +1,8 @@
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import TestimonialSection from "@/components/TestimonialSection";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <FeaturedSection />
       <WhyChooseUs />
+      <TestimonialSection />
+      <UpcomingWebinars />
     </main>
   );
 }

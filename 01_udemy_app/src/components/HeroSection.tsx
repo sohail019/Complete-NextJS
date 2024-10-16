@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
-import { BackgroundLines } from "./ui/background-lines";
 
 export default function HeroSection() {
   return (
