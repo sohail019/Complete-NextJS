@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import TestimonialSection from "@/components/TestimonialSection";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChooseUs />
       <TestimonialSection />
       <UpcomingWebinars />
+      <Instructors />
     </main>
   );
 }
