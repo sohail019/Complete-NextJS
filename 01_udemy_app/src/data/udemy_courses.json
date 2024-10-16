@@ -18,7 +18,7 @@
       "price": 449,
       "instructor": "Hitesh Choudhary",
       "isFeatured": true,
-      "image": "/courses/complete-web-development.jpg"
+      "image": "/courses/complete-web-hitesh.jpg"
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
       "slug": "data-structures-algorithms",
       "description": "Ace coding interviews with in-depth understanding of data structures, algorithms, and problem-solving techniques.",
       "price": 549,
-      "instructor": "Colt Steele",
+      "instructor": "Love Babbar",
       "isFeatured": false,
       "image": "/courses/data-structures-algorithms.jpg"
     },
@@ -62,11 +62,11 @@
     },
     {
       "id": 7,
-      "title": "UI/UX Design Masterclass",
+      "title": "Complete Web & Mobile Designer: UI/UX, Figma, +more",
       "slug": "ui-ux-design-masterclass",
       "description": "Become a professional UI/UX designer. Learn how to create stunning and intuitive user interfaces and experiences.",
       "price": 359,
-      "instructor": "Sarah Doody",
+      "instructor": "Andrei Neagoie",
       "isFeatured": false,
       "image": "/courses/ui-ux-design.jpg"
     },
@@ -82,13 +82,13 @@
     },
     {
       "id": 9,
-      "title": "Fullstack Go Developer Bootcamp",
-      "slug": "fullstack-go-developer",
+      "title": "Node.js, Express, MongoDB & More: The Complete Bootcamp",
+      "slug": "nodejs-complete-bootcamp",
       "description": "Master backend and frontend development with Go. Build high-performance apps and deploy them with ease.",
       "price": 499,
-      "instructor": "Elliot Forbes",
+      "instructor": "Jonas Schmedtmann",
       "isFeatured": false,
-      "image": "/courses/fullstack-go-developer.jpg"
+      "image": "/courses/nodejs-complete-bootcamp.jpg"
     },
     {
       "id": 10,
@@ -102,11 +102,11 @@
     },
     {
       "id": 11,
-      "title": "Mastering Git & GitHub",
+      "title": "The Complete Git Guide: Understand and master Git and GitHub",
       "slug": "mastering-git-github",
       "description": "Learn version control with Git and GitHub. Collaborate efficiently, manage code changes, and automate workflows.",
       "price": 199,
-      "instructor": "Scott Tolinski",
+      "instructor": "Bogdan Stashchuk",
       "isFeatured": false,
       "image": "/courses/mastering-git-github.jpg"
     },
