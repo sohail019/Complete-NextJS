@@ -1,7 +1,4 @@
-import User from "@/models/userModel";
 import { connect } from "@/database/dbConfig";
-import bcryptjs from "bcryptjs";
-import jwt from "jsonwebtoken";
 import { NextRequest, NextResponse } from "next/server";
 
 connect();
