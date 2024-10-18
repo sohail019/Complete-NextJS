@@ -1,6 +1,4 @@
-import { log } from "console";
 import mongoose from "mongoose";
-
 export async function connect () {
     try {
         mongoose.connect(process.env.Mongo_URI!)
@@ -11,7 +9,7 @@ export async function connect () {
         })
 
         connection.on('error', (err) => {
-            console.error("MongoDB Connection Failed, Please Make Sure Everything is Up and Fine" + err)
+            console.error("MongoDB Connection Failed, Please Make Sure Everything is Up and Fine", err)
         })
 
     } catch (error) {

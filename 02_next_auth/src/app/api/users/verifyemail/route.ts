@@ -29,7 +29,7 @@ export async function POST(request: NextRequest){
         await user.save()
 
         // ? Return the response
-        return NextResponse.json({ error: "Email Verified Successfully", success: true }, { status: 500 });
+        return NextResponse.json({ message : "Email Verified Successfully", success: true }, { status: 400 });
         
     } catch (error: any) {
         return NextResponse.json({ error: error.message }, { status: 500 });
