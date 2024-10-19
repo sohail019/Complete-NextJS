@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
+
 import "./globals.css";
+import { Providers } from "./providers";
 
 export default function RootLayout({
   children,
@@ -8,12 +8,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+    <html lang="en" data-theme="dark">
+      <body className={`antialiased`}>
+        <Providers>
         {children}
-      </body>
-    </html>
+        </Providers>
+        </body>
+    </html> 
   );
 }

@@ -57,10 +57,13 @@ export default function LoginPage() {
         onChange={(e) => setUser({ ...user, password: e.target.value })}
         placeholder="Password"
       />
-      <button onClick={onLogin}>
-        {buttonDisabled ? "No Login" : "Login"}
-      </button>
+      <button onClick={onLogin}>{buttonDisabled ? "No Login" : "Login"}</button>
       <Link href="/signup">Visit Signup Page</Link>
+
+      <button
+        data-toggle-theme="dark,light"
+        data-act-class="ACTIVECLASS"
+      >Toggle</button>
     </div>
   );
 }
