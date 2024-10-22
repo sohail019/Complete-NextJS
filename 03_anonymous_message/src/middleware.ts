@@ -6,14 +6,8 @@ export {default} from "next-auth/middleware"
 
 //? Configuration object for speicifying which routes should apply the middleware
 export const config = {
-    matcher: [
-        '/dashboard/:path*',
-        'sign-in',
-        'sign-up',
-        '/',
-        'verify/:path*'
-    ]
-}
+  matcher: ["/dashboard/:path*", "/sign-in", "/sign-up", "/", "/verify/:path*"],
+};
 
 //? Middleware function that runs before each request to the matched routes 
 export async function middleware(request: NextRequest) {
