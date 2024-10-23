@@ -44,8 +44,8 @@ export async function POST(request: Request) {
         }
     } else{
         const hashedPassword = await bcrypt.hash(password, 10)
-        const expiryDate = new Date()
-        expiryDate.setHours(expiryDate.getHours() + 1)
+        const expiryDate = new Date();
+        expiryDate.setHours(expiryDate.getHours() + 1);
 
         const newUser = new User({
             username,
@@ -61,12 +61,15 @@ export async function POST(request: Request) {
         await newUser.save()
     } 
 
+    console.log(verifyCode);
+    
     //* Send Verification Email
     const emailResponse = await sendVerificationEmail(
         email,
         username,
         verifyCode
     )
+
 
     if(!emailResponse.success) {
         return Response.json({
