@@ -2,7 +2,7 @@ import dbConnect from "@/lib/dbConnect";
 import { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
-import User from "@/model/User";
+import UserModel from "@/model/User";
 
 export const authOptions: NextAuthOptions = {
   //? provider is an array of authentication providers for signing in (e.g. Google, Facebook, Twitter, GitHub, Email, etc) in any order. This can be one of the built-in providers or an object with a custom provider.
@@ -22,7 +22,7 @@ export const authOptions: NextAuthOptions = {
 
         try {
           //* Get user
-          const user = await User.findOne({
+          const user = await UserModel.findOne({
             $or: [
               { email: credentials.identifier },
               { username: credentials.identifier },

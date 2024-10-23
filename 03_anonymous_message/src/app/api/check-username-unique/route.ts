@@ -1,7 +1,7 @@
 //todo: Create API route handler that checks if a username is available in the database
 
 import dbConnect from "@/lib/dbConnect";
-import User from "@/model/User";
+import UserModel from "@/model/User";
 import { usernameValidationSchema } from "@/schemas/signUpSchema";
 import { z } from "zod";
 
@@ -44,7 +44,7 @@ export async function GET(request: Request) {
     const { username } = result.data;
 
     //? Check if the verified user with the given username  exists in the database
-    const existingVerifiedUser = await User.findOne({
+    const existingVerifiedUser = await UserModel.findOne({
       username,
       isVerified: true,
     });

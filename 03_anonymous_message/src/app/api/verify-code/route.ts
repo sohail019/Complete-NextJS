@@ -1,7 +1,7 @@
 //todo: Create a API route handler to verify a user's account through a verification code sent during the signup process
 
 import dbConnect from "@/lib/dbConnect";
-import User from "@/model/User";
+import UserModel from "@/model/User";
 
 //* main POST request handler function
 
@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     const decodedUsername = decodeURIComponent(username);
 
     //* Look for a user in the database that matches the decoded username
-    const user = await User.findOne({ username: decodedUsername });
+    const user = await UserModel.findOne({ username: decodedUsername });
 
     //? Check if user is not found, return 404 error
     if (!user) {

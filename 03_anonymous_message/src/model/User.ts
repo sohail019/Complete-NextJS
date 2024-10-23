@@ -72,6 +72,6 @@ const UserSchema = new mongoose.Schema({
 
 //* This checks if a Mongoose model named "User" already exists! and if not, creates a new one using the UserSchema.
 //? The as keyword is used for type casting to ensure the model conforms to the User interface.
-const User = (mongoose.models.User as mongoose.Model<User>) || (mongoose.model<User>("User", UserSchema))
+const UserModel = (mongoose.models.User as mongoose.Model<User>) || (mongoose.model<User>("User", UserSchema))
 
-export default User
+export default UserModel
