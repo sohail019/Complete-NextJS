@@ -1,6 +1,7 @@
 import AuthProvider from "@/context/AuthProvider";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import Navbar from "@/components/Navbar";
 
 export default function RootLayout({
   children,
@@ -10,7 +11,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <AuthProvider>
-        <body className={"antialiased"}>
+        <body className={"antialiased h-[80vh]"}>
+          <Navbar />
           {children}
           <Toaster />
         </body>

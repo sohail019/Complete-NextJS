@@ -64,8 +64,8 @@ export default function SignIn() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-800">
-      <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
+    <div className="flex justify-center items-center h-[90vh] bg-gray-800">
+      <div className="w-full max-w-md p-6 space-y-6 bg-white rounded-lg shadow-md">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-6">
             Welcome Back
@@ -73,7 +73,7 @@ export default function SignIn() {
           <p className="mb-4">Login to start your anonymous adventure</p>
         </div>
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
             <FormField
               name="identifier"
               control={form.control}
