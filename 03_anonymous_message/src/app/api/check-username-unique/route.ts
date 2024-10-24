@@ -22,8 +22,11 @@ export async function GET(request: Request) {
       username: searchParams.get("username"), //? get the username query parameter
     };
 
+    console.log(queryParam);
+    
     //* Validate the query paramter using zod schema
     const result = UsernameQuerySchema.safeParse(queryParam);
+    console.log(result);
 
     //? Check if validation fails, return a 400 error response with error message
     if (!result.success) {
