@@ -4,7 +4,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import { useDebounceCallback, useDebounceValue } from "usehooks-ts";
 import * as z from "zod";
 
 import { Button } from "@/components/ui/button";
@@ -92,12 +91,22 @@ export default function SignUp() {
 
     try {
       //* Sends a POST request to create a new user with the form data.
-      await axios.post("/api/sign-up", data);
+      const response = await axios.post("/api/sign-up", data);
+
+      toast({
+        title: "Success",
+        description: response.data.message,
+      });
+
+      router.replace(`/verify/${username}`)
+
+      setIsSubmitting(false);
     } catch (error) {
       console.error("Error during sign-up", error);
 
       const axiosError = error as AxiosError<ApiResponse>;
 
+      // Default error message
       let errorMessage = axiosError.response?.data.message;
       ("There was a problem with your sign-up. Please try again.");
 
@@ -164,9 +173,9 @@ export default function SignUp() {
                     }}
                     name="email"
                   />
-                  <p className="text-muted text-gray-400 text-sm">
+                  {/* <p className="text-muted text-gray-400 text-sm">
                     We will send you a verification code
-                  </p>
+                  </p> */}
                   <FormMessage />
                 </FormItem>
               )}
@@ -198,7 +207,7 @@ export default function SignUp() {
         <div className="text-center mt-4">
           <p>
             Already a member?{" "}
-            <Link href="/sign-in" className="text-blue-600 hover:text-blue-800">
+            <Link href="/sign-in" className="text-teal-600 hover:text-teal-800">
               Sign in
             </Link>
           </p>
