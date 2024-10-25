@@ -1,0 +1,3 @@
+type SlideContentProps = {
+    content: string
+}
